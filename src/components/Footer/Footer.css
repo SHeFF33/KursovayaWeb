@@ -1,0 +1,36 @@
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222121;
+  }
+  
+  .footer-left {
+    padding-left: 50px;
+    color: #ffffff;
+  }
+  
+  .footer-right {
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-right a {
+    margin: 0 10px;
+  }
+  
+  .footer-right img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+  } 
+  
+  .footer-right a:hover img {
+    transform: scale(1.08);
+  } 

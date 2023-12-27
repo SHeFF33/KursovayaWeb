@@ -1,0 +1,159 @@
+.wrapper{
+    height: 101%; 
+    background: rgba(255, 255, 255, 0.8); 
+}
+.header {
+    position: fixed; 
+    top: 0; 
+    width: 99%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.button-news {
+    background-color: #FFFFFF; 
+    color: #000000;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button-news:hover{
+    background-color: #000000; 
+    color: #FFFFFF; 
+    transform: scale(1.08);
+}
+.button-shop {
+    background-color: #FFFFFF; 
+    color: #000000;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button-shop:hover{
+    background-color: #000000; 
+    color: #FFFFFF; 
+    transform: scale(1.08);  
+}
+.right-button {
+    padding: 10px 20px;
+    background-color: #FFFFFF; 
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+.right-button:hover{
+    background-color: #000000; 
+    color: #FFFFFF; 
+    transform: scale(1.08);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .main{
+    padding-top: 100px;
+    background: url("../pictures/wwe.jpg") no-repeat center center fixed;
+    background-size: 100% 100vh;
+    min-height: calc(100vh - 100px);
+} 
+.inform{
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #000000;
+}
+.container {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .content-item {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .image-placeholder img {
+    width: 150px; 
+    height: 100px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+  }
+  
+  .text-placeholder {
+    height: auto;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: block;
+    text-align: right;
+    color: #280072;
+  }
+  
+  .footer {
+    bottom: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222121;
+  }
+  
+  .footer-left {
+    padding-left: 50px;
+    color: #ffffff;
+  }
+  
+  .footer-right {
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-right a {
+    margin: 0 10px;
+  }
+  
+  .footer-right img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+  } 
+  
+  .footer-right a:hover img {
+    transform: scale(1.08);
+  } 

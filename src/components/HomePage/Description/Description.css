@@ -1,0 +1,36 @@
+.inform {
+    text-align: left;
+    font-size: 19px;
+  }
+  
+  .inform-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .inform-item {
+    margin-bottom: 4px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .image-wrapper {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image-border {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+  }

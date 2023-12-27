@@ -1,0 +1,35 @@
+#main-container {
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 40px;
+    }
+    #page-header {
+    display: flex;
+    color: #cfcfcf;
+    padding-top: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 52px;
+    }
+    
+    #page-header span{
+    color: #ECB263;
+    }
+    #news-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 14px;
+    }
+    
+    #news-content {
+    flex-grow: 1;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    text-align: start;
+    }
+    
